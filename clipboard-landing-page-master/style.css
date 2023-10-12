@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* MOBILE VIEW */
+
+@media screen and (max-width: 30rem){
+    .sec1 header .head-desk-img{
+        display: none;
+    }
+
+    .sec1 header .head-mobile-img{
+        display: block;
+        width: 100%;
+        height: 10.8rem;
+    }
+
+    .sec1 header, .sec3 .section3-content-container .sec3-sub{
+        text-align: center;
+    }
+
+    .sec1 header .header-text, 
+    .sec2 .sec2-head, 
+    .computer-img, 
+    .sec2 .section2-content .section2-content-container,
+    .sec3 .section3-content-container,
+    .sec3 .sec3-head,
+    .sec4 .header-text{
+        padding: 2.5rem 2rem;
+    }
+
+    
+
+    .sec1 header .header-text h1, 
+    .sec2 .sec2-head h2, 
+    .sec2 .section2-content .section2-content-container h2, 
+    .sec3 .sec3-head h2, 
+    .sec3 .section3-content-container .sec3-sub h2,
+    .sec4 .header-text h1{
+        color: hsl(210, 10%, 33%);
+        word-spacing: .1rem;
+        font-size: 2rem;
+        padding: 0 0 1rem;
+        text-align: center;
+    }
+
+    .sec1 header .header-text p,
+    .sec2 .sec2-head p,
+    .sec2 .section2-content .section2-content-container p,
+    .sec3 .sec3-head p,
+    .sec3 .section3-content-container .sec3-sub p,
+    .sec4 .header-text p{
+        color: hsl(201, 11%, 66%);
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .sec1 .down-link,
+    .sec4 .down-link{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec1 .down-link a,
+    .sec4 .down-link a{
+        display: block;
+        padding: 1rem 0;
+        width: 60%;
+        text-align: center;
+        border-radius: 2rem;
+    }
+
+    .sec1 .down-link .down-ios,
+    .sec4 .down-ios{
+        background-color: hsl(171, 66%, 44%);
+        color: white;
+        box-shadow: 0 .2rem hsl(171, 66%, 18%);
+    }
+
+    .sec1 .down-link .down-mac,
+    .sec4 .down-mac{
+        background-color: hsl(233, 100%, 69%);
+        color: white;
+        box-shadow: 0 .2rem hsl(233, 100%, 18%);
+    }
+
+
+    .sec2{
+        padding: 7rem 0 0 0;
+    }
+
+    .sec2 .computer-img{
+        width: 100%;
+        display: block;
+    }
+
+    .sec2 .section2-content .section2-content-container .sec2-sub{
+        padding: 0 0 4rem 0;
+    }
+     
+    .sec3 .device-img{
+        width: 100%;
+        display: block;
+    }
+   
+    .sec3 .section3-content-container .sec3-sub{
+        margin: 5rem 0 0 0;
+    }
+
+    .logo-gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-gallery .logo-grid img{
+        display: block;
+        width: 100%;
+        padding: 3rem 0;
+    }
+
+    .close{
+        margin: 5rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .close nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+    }
+
+    .close nav a{
+        display: block;
+        color: hsl(201, 11%, 66%);
+        padding: 1rem 0;
+    }
+
+    .close .social{
+        display: flex;
+        gap: 3rem;
+    }
+
+    .close .social img{
+        display: block;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width : 40rem) {
+    .sec1 header .head-mobile-img{
+        display: none;
+    }
+
+    .sec1 header .head-desk-img{
+        display: block;
+        width: 100%;
+        height: 10.8rem;
+    }
+
+    .sec1{
+        text-align: center;
+        height: 100vh;
+    }
+
+    header .header-text h1,
+    .sec2-head h2,
+    .sec2-sub h2,
+    .sec3-head h2,
+    #item1 h2,
+    #item2 h2,
+    #item3 h2,
+    #item4 h2,
+    .sec4 .header-text h1{
+        color: hsl(210, 10%, 33%);
+        word-spacing: .1rem;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    header .header-text p,
+    .sec2-head p,
+    .sec2-sub p,
+    .sec3-head p,
+    #item1 p,
+    #item2 p,
+    #item3 p,
+    #item4 p,
+    .sec4 .header-text p{
+        color: hsl(201, 11%, 66%);
+        font-size: 1rem;
+        padding: 1rem 0 2.5rem;
+    }
+
+    .header-text,
+    .sec2 .sec2-head,
+    .sec3-head
+    {
+        padding: 3.5rem 29.5rem 0;
+        text-align: center;
+    }
+
+    .down-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+     .down-link a{
+        display: block;
+        padding: 1rem 2.5rem;
+        border-radius: 2rem;
+    }
+
+    .down-link .down-ios{
+        background-color: hsl(171, 66%, 44%);
+        color: white;
+        box-shadow: 0 .2rem hsl(171, 57%, 38%);
+    }
+
+    .down-link .down-mac{
+        background-color: hsl(233, 100%, 69%);
+        color: white;
+        box-shadow: 0 .2rem hsl(233, 57%, 38%);
+    }
+
+    .down-link .down-ios:hover{
+        box-shadow: 0 .2rem .2rem hsl(171, 57%, 38%);
+    }
+
+    .down-link .down-mac:hover{
+        box-shadow: 0 .2rem .2rem hsl(233, 57%, 38%);
+    }
+
+    .section2-content img{
+        display: block;
+        width: 100%;
+    }
+
+    .section2-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 7rem;
+        margin-top: 3rem;
+    }
+
+    .sec2-sub{
+        padding-right: 20rem;
+        margin-top: 1rem;
+    }
+   
+    .sec3{
+        margin: 3rem 0;
+    }
+
+    .section3-content-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #item1{
+        grid-column: 1/4;
+        text-align: center;
+    }
+    #item2,
+    #item3,
+    #item4{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+
+
+    .device-img{
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    .logo-grid{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .close{
+        margin-top: 3rem;
+        padding: 2rem 0 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(241, 241, 241);
+    }
+
+    .close .footer-logo{
+        display: block;
+        width:  5%;
+    }
+
+    .close nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .close .social{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .close nav a{
+        color: hsl(201, 11%, 66%);
+        width: fit-content;
+    }
+
+    .close nav a:hover{
+        color: hsl(171, 66%, 44%);
+    }
+
+}
